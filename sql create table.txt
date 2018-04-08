@@ -1,0 +1,6 @@
+CREATE TABLE user1 (
+    id int(5) AUTO_INCREMENT,
+    username varchar(20), 
+    password varchar(20),
+    PRIMARY KEY(id, username, password)); 
+
